@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Lilies - Art Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="gallery-home.html">
+                <i class="bi bi-palette-fill"></i> Art Gallery
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery-home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery-display.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="art-display">
+                        <img src="https://images.unsplash.com/photo-1578926078328-654321098765?w=600&h=700&fit=crop" alt="Water Lilies" class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="art-info">
+                        <h1 class="mb-3">Water Lilies</h1>
+                        <div class="mb-4">
+                            <h5 class="text-muted mb-2">Artist</h5>
+                            <p class="fs-5">Claude Monet</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5 class="text-muted mb-2">Year of Creation</h5>
+                            <p class="fs-5">1906</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5 class="text-muted mb-2">Medium</h5>
+                            <p class="fs-5">Oil on Canvas</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5 class="text-muted mb-2">Description</h5>
+                            <p>"Water Lilies" is a masterpiece of impressionist painting that captures the serene beauty of a Japanese bridge garden. Monet's delicate brushwork and soft color palette create a tranquil atmosphere, with floating water lilies and their reflections merging with the water below. This series of paintings exemplifies the artist's obsession with light and its effects on nature.</p>
+                        </div>
+                        <a href="gallery-display.html" class="btn btn-primary">
+                            <i class="bi bi-arrow-left"></i> Back to Gallery
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Similar Artworks -->
+            <div class="mt-5 pt-5 border-top">
+                <h3 class="mb-4">Similar Artworks</h3>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="similar-card">
+                            <div class="similar-image">
+                                <img src="https://images.unsplash.com/photo-1578926078328-123456789012?w=400&h=300&fit=crop" alt="Starry Night" class="img-fluid">
+                                <div class="overlay">
+                                    <a href="art-piece-1.html" class="btn btn-light btn-sm">View</a>
+                                </div>
+                            </div>
+                            <div class="similar-details p-3">
+                                <h6 class="mb-2">Starry Night</h6>
+                                <p class="small text-muted mb-0">Vincent Van Gogh • 1889</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="similar-card">
+                            <div class="similar-image">
+                                <img src="https://images.unsplash.com/photo-1578926078328-345678901234?w=400&h=300&fit=crop" alt="Composition VIII" class="img-fluid">
+                                <div class="overlay">
+                                    <a href="art-piece-5.html" class="btn btn-light btn-sm">View</a>
+                                </div>
+                            </div>
+                            <div class="similar-details p-3">
+                                <h6 class="mb-2">Composition VIII</h6>
+                                <p class="small text-muted mb-0">Wassily Kandinsky • 1923</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="similar-card">
+                            <div class="similar-image">
+                                <img src="https://images.unsplash.com/photo-1578926078328-987654321098?w=400&h=300&fit=crop" alt="The Persistence of Memory" class="img-fluid">
+                                <div class="overlay">
+                                    <a href="art-piece-2.html" class="btn btn-light btn-sm">View</a>
+                                </div>
+                            </div>
+                            <div class="similar-details p-3">
+                                <h6 class="mb-2">The Persistence of Memory</h6>
+                                <p class="small text-muted mb-0">Salvador Dalí • 1931</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Art Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
