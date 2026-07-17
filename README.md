@@ -94,38 +94,6 @@ Each page includes:
 - Detailed description
 - 3 similar artworks with links
 - Back to gallery button
-
-## 🚀 How to View the Website
-
-### Option 1: GitHub Pages (Recommended)
-Your website is automatically hosted on GitHub Pages:
-
-**URL:** `https://Eliz2132.github.io/art-gallery/`
-
-### Option 2: Clone & Open Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Eliz2132/art-gallery.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd art-gallery
-   ```
-3. Open `index.html` in your web browser:
-   - Double-click `index.html` OR
-   - Use a local server (recommended):
-     ```bash
-     python -m http.server 8000
-     # or
-     python3 -m http.server 8000
-     ```
-   - Then visit `http://localhost:8000` in your browser
-
-### Option 3: Use VS Code Live Server
-1. Install "Live Server" extension in VS Code
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
-
 ## 🎯 Artworks Featured
 
 1. **Starry Night** by Vincent Van Gogh (1889)
@@ -155,13 +123,6 @@ Your website is automatically hosted on GitHub Pages:
 - **Bootstrap 5** - Responsive grid system and components
 - **JavaScript** - Interactive features and animations
 - **Bootstrap Icons** - Icon library
-
-## 📱 Responsive Design
-
-The website is fully responsive and works perfectly on:
-- 📱 Mobile devices (320px and up)
-- 📱 Tablets (768px and up)
-- 💻 Desktops (1024px and up)
 
 ## ✅ Features Checklist
 
@@ -218,10 +179,5 @@ The website is fully responsive and works perfectly on:
 
 **Eliz2132** - GitHub User
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
 
 **Happy Exploring! 🎨**
